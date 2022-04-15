@@ -3,7 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/SakoDroid/telego/pkg/telegobot"
+	"github.com/KitaBiserov/telegrambot/pkg/telegobot"
+
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
@@ -15,6 +16,6 @@ func main() {
 
 	bot.Debug = true
 
-	telegobot.NewBot()
+	telegobot.NewBot(bot)
 
 }
