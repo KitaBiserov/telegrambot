@@ -3,8 +3,7 @@ package main
 import (
 	"log"
 
-	"telegobot"
-
+	"github.com/SakoDroid/telego/pkg/telegobot"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
